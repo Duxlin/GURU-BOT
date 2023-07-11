@@ -6,17 +6,17 @@
   </a>
 </p>
 <p align="center">
-<a href="https://github.com/Guru322"><img title="Author" src="https://img.shields.io/badge/GURU-BOT-black?style=for-the-badge&logo=telegram"></a>
+<a href="https://github.com/Duxlin"><img title="Author" src="https://img.shields.io/badge/GURU-BOT-black?style=for-the-badge&logo=telegram"></a>
 <p/>
 <p align="center">
-<a href="https://github.com/Guru322?tab=followers"><img title="Followers" src="https://img.shields.io/github/followers/Guru322?label=Followers&style=social"></a>
-<a href="https://github.com/Guru322/GURU-BOT/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/Guru322/GURU-BOT?&style=social"></a>
-<a href="https://github.com/Guru322/GURU-BOT/network/members"><img title="Fork" src="https://img.shields.io/github/forks/Guru322/GURU-BOT?style=social"></a>
-<a href="https://github.com/Guru322/GURU-BOT/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/Guru322/GURU-BOT?label=Watching&style=social"></a>
+<a href="https://github.com/Duxlin?tab=followers"><img title="Followers" src="https://img.shields.io/github/followers/Duxlin?label=Followers&style=social"></a>
+<a href="https://github.com/Duxlin/GURU-BOT/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/Duxlin/GURU-BOT?&style=social"></a>
+<a href="https://github.com/Duxlim/GURU-BOT/network/members"><img title="Fork" src="https://img.shields.io/github/forks/Duxlin/GURU-BOT?style=social"></a>
+<a href="https://github.com/Guru322/GURU-BOT/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/Duxlin/GURU-BOT?label=Watching&style=social"></a>
 </p>
 
 ####  
-GURU-BOT- Simple Multi Device whatsapp bot.
+DUX-BOT- Simple Multi Device whatsapp bot.
 
 ***
 
@@ -24,7 +24,7 @@ GURU-BOT- Simple Multi Device whatsapp bot.
 
 1. Fork the repo
     <br>
-<a href='https://github.com/Guru322/GURU-BOT/fork' target="_blank"><img alt='Fork repo' src='https://img.shields.io/badge/Fork Repo-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=black&color=black'/></a>
+<a href='https://github.com/Duxlin/GURU-BOT/fork' target="_blank"><img alt='Fork repo' src='https://img.shields.io/badge/Fork Repo-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=black&color=black'/></a>
 
 2. Scan the QR and upload guru.data.json to your fork(will recieve it on your bot number after scanning)
     <br>
