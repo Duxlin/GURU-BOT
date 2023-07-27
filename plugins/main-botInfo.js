@@ -58,13 +58,13 @@ let infobt = `
 *≡ OWNER*
   *GURU*
 ▢ Instagram :
-  • https://instagram.com/asli_guru69
+  • https://instagram.com/official_quadhir
 ▢ GitHub :
-  • https://github.com/Guru322
+  • https://github.com/Duxlin
 ▢ Telegram : 
-  • t.me/i_want_to_be_isekaied (GURU) 
+  • t.me/Duxlin (GURU) 
 ▢ YouTube : 
-  • https://youtube.com/@Asliguru
+  • https://youtube.com/@duxbot6413
 
  *≡ S E R V E R*
 *🛑 RAM:* ${format(totalmem() - freemem())} / ${format(totalmem())}
