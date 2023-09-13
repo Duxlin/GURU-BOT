@@ -1,18 +1,29 @@
 import fetch from 'node-fetch';
 
 let handler = async (m, { text, usedPrefix, command }) => {
-  if (!text) throw `*Enter a request or an order to use ChatGpt*\n\n*Example*\n* ${usedPrefix + command} Latest Netflix series*\n* ${usedPrefix + command} write a JS code*`;
+  
+  if (!text && !(m.quoted && m.quoted.text)) {
+    throw `Please provide some text or quote a message to get a response.`;
+  }
+
+  if (!text && m.quoted && m.quoted.text) {
+    text = m.quoted.text;
+  }
 
   try {
-    const response = await fetch(`https://guru-scrapper.cyclic.app/api/chatgpt?query=${encodeURIComponent(text)}`);
+    conn.sendPresenceUpdate('composing', m.chat);
+    const prompt = encodeURIComponent(text);
+    const model = 'llama';
+    const endpoint = `https://gurugpt.cyclic.app/gpt4?prompt=${prompt}&model=${model}`;
+
+    const response = await fetch(endpoint);
     const data = await response.json();
-    const { text: result } = data.data || {};
-    const model = data.data?.detail?.model;
-    const creator = data.creator || '';
-    const fullResult = `${result}\n\nModel: ${model}\nCreator: ${creator}`;
-    m.reply(fullResult.trim());
+    const result = data.data; 
+
+   m.reply(result);
+
   } catch (error) {
-    console.error('Error:', error); // Log the error
+    console.error('Error:', error);
     throw `*ERROR*`;
   }
 };
@@ -21,3 +32,4 @@ handler.command = ['bro', 'chatgpt', 'ai', 'siri'];
 handler.diamond = false;
 
 export default handler;
+
